@@ -3,9 +3,10 @@ This is a simple program written in python with a GUI. It's intended to be used 
 The GUI includes the input parameters, the output, and the solutions.
 The solution is automatically hidden when generating a new system and can be shown using the button titled "Show Solution"
 Generating a system with more than 7 variables is not recommended due to the program being single-threaded and the computation of a determinant within the code.
-NOTE: ALL SOLUTIONS ARE INTEGERS.
 
-Requirements: 
+# NOTE: ALL SOLUTIONS ARE INTEGERS.
+
+# Requirements: 
 Python for windows (can be downloaded from the windows store)
 
 installing numpy (can be done with: "pip install numpy")

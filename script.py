@@ -9,10 +9,14 @@ def matrix_generate(num_vars, allow_negative, coef_range, sol_range):
         if solutions.count(0) > 1:
             continue  # At most one zero solution
         matrix = []
+        total_coefficients = []
         for _ in range(num_vars):
             coefficients = [random.randint(-coef_range, coef_range) if allow_negative else random.randint(0, coef_range) for _ in range(num_vars)]
+            total_coefficients.extend(coefficients)
             result = sum(coef * sol for coef, sol in zip(coefficients, solutions))
             matrix.append((coefficients, result))
+        if total_coefficients.count(0) > 1:
+            continue  # At most one zero coefficient
         coefficients_matrix = np.array([coefficients for coefficients, _ in matrix])
         if np.linalg.det(coefficients_matrix) != 0:
             break
@@ -89,3 +93,4 @@ toggle_button.grid(column=0, row=7, columnspan=2, padx=10, pady=10)
 
 # Run the application
 root.mainloop()
+

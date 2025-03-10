@@ -1,4 +1,4 @@
-# Systems-of-linear-equations
+## Systems-of-linear-equations
 This is a simple program written in python with a GUI. It's intended to be used to generate exercises for students.
 The GUI includes the input parameters, the output, and the solutions.
 The solution is automatically hidden when generating a new system and can be shown using the button titled "Show Solution"
@@ -6,7 +6,7 @@ Generating a system with more than 7 variables is not recommended due to the pro
 
 # NOTE: ALL SOLUTIONS ARE INTEGERS.
 
-# Requirements: 
+## Requirements: 
 Python for windows (can be downloaded from the windows store)
 
 installing numpy (can be done with: "pip install numpy")

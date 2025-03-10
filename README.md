@@ -1,7 +1,8 @@
 # Systems-of-linear-equations
-This is a simple program written in python with a GUI intended for education.
-This script features a simplistic GUI that includes the input parameters and the output.
+This is a simple program written in python with a GUI. It's intended to be used to generate exercises for students.
+The GUI includes the input parameters, the output, and the solutions.
 The solution is automatically hidden when generating a new system and can be shown using the button titled "Show Solution"
+
 NOTE: ALL SOLUTIONS ARE INTEGERS.
 
 ![image](https://github.com/user-attachments/assets/1afab4f4-0ac2-4547-a630-a9e6f704a81b)
